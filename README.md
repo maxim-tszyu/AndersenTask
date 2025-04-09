@@ -46,7 +46,7 @@ Implementation of the test assignment using PHP 8.x, Laravel 12.x, MySQL, and Vi
     php artisan key:generate
     ```
 
-7. Run database migrations (if necessary):
+7. Run database migrationsЖ
 
     ```bash
     php artisan migrate --seed
