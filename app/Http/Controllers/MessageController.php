@@ -12,7 +12,8 @@ class MessageController extends Controller
      */
     public function index()
     {
-        //
+        $messages = Message::all();
+        return view('welcome', compact('messages'));
     }
 
     /**
