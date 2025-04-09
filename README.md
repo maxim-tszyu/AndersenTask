@@ -1,35 +1,35 @@
 
-# Andersen task
+# Andersen Task
 
-Реализация тестового задания с использованием PHP 8.x, Laravel 12.x, MySQL и Vite
+Implementation of the test assignment using PHP 8.x, Laravel 12.x, MySQL, and Vite.
 
-## Установка
+## Installation
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/maxim-tszyu/AndersenTask.git
     ```
 
-2. Перейдите в папку с проектом:
+2. Navigate to the project directory:
 
     ```bash
     cd AndersenTask
     ```
 
-3. Установите зависимости с помощью Composer:
+3. Install dependencies via Composer:
 
     ```bash
     composer install
     ```
 
-4. Скопируйте файл `.env.example` в `.env`:
+4. Copy the `.env.example` file to `.env`:
 
     ```bash
     cp .env.example .env
     ```
 
-5. Настройте ваше окружение, например, укажите параметры подключения к базе данных в `.env`:
+5. Configure your environment, e.g., set your database connection in the `.env` file:
 
     ```bash
     DB_CONNECTION=mysql
@@ -40,35 +40,36 @@
     DB_PASSWORD=
     ```
 
-6. Генерируйте ключ приложения:
+6. Generate the application key:
 
     ```bash
     php artisan key:generate
     ```
 
-7. Выполните миграции базы данных (если это необходимо):
+7. Run database migrations (if necessary):
 
     ```bash
     php artisan migrate --seed
     ```
 
-8. Установите зависимости для фронтенда с помощью npm
+8. Install frontend dependencies via npm:
 
     ```bash
     npm install
     ```
-9. Запустите тесты и проверьте работоспособность сайта
+
+9. Run tests and check if the site is working correctly:
 
     ```bash
     php artisan test
     ```
 
-10. Запустите локальный сервер:
+10. Start the local development servers:
 
     ```bash
     npm run dev
     ```
-    и
+    and
 
     ```bash
     php artisan serve
