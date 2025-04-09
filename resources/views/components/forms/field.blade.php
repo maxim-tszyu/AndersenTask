@@ -9,7 +9,7 @@
     ];
 @endphp
 <div>
-    <input {{$attributes->merge($input_defaults)}}
+    <input {{$attributes->merge($input_defaults)}}>
     @if($label)
         <x-forms.label :$name :$label></x-forms.label>
     @endif

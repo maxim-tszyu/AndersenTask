@@ -8,9 +8,6 @@ use App\Models\Message;
 
 class MessageSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         Message::factory(10)->create();
